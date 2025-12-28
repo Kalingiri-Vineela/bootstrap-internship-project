@@ -1,52 +1,67 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>My Website</title>
+  <title>Placement Assistance</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- Bootstrap design link -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-<div class="bg-dark text-white p-3">
-  <a href="index.html" class="text-white me-3">Home</a>
-  <a href="about.html" class="text-white me-3">About</a>
-  <a href="contact.html" class="text-white">Contact</a>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="#">Placement Assist</a>
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="menu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">Services</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<div class="bg-primary text-white text-center p-5">
+  <h1>Campus Placement Assistance</h1>
+  <p>Helping students get industry-ready</p>
+  <a class="btn btn-light mt-3">Get Started</a>
 </div>
 
-  <div class="container mt-5 mb-5 text-center">
-  <h1 class="text-primary text-center mb-3">Welcome to My Website</h1>
-  <p class="lead">This website is built using Bootstrap 5</p>
-</div>
-
-<div class="container mt-5">
+<!-- Features -->
+<div class="container my-5">
   <div class="row text-center">
-
     <div class="col-md-4">
-      <div class="border p-3">
-        <h5>Easy</h5>
-        <p>Bootstrap makes website design easy.</p>
+      <div class="card p-3">
+        <h4>Resume Building</h4>
+        <p>Professional resume guidance for students.</p>
       </div>
     </div>
-
     <div class="col-md-4">
-      <div class="border p-3">
-        <h5>Responsive</h5>
-        <p>Works on mobile, tablet and laptop.</p>
+      <div class="card p-3">
+        <h4>Mock Interviews</h4>
+        <p>Practice interviews with experts.</p>
       </div>
     </div>
-
     <div class="col-md-4">
-  <div class="card">
-    <div class="card-body text-center">
-      <h5 class="card-title">Clean layout</h5>
-      <p class="card-text">Simple and clean layout that is easy to understand.</p>
+      <div class="card p-3">
+        <h4>Job Alerts</h4>
+        <p>Latest job & internship notifications.</p>
+      </div>
     </div>
   </div>
 </div>
-  </div>
-</div>
-<footer class="bg-dark text-white text-center p-3 mt-5">
-  © 2025 Internship  Bootstrap Project
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center p-3">
+  © 2025 Placement Assist
 </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
